@@ -5,7 +5,7 @@ font-family: 'open sans', sans-serif ;
 }
 .text-primary{
     color: #FD6E0A;}
-.class-btn{border-radius: 5px;
+.class-btn{border-radius:5px;
 background: #FD6E0A;
 border: 0;
 color: white;
@@ -15,7 +15,9 @@ padding: 15px 35px;}
 
 /* nav related styles */
 nav{ display: flex;
-align-items: center;}
+    justify-content: space-between;
+align-items: center;
+margin: 0 200px;}
 
 .nav title{ color: #181818;
     font-size:45px ;
@@ -26,3 +28,9 @@ margin-right: 50px;}
 nav a {text-decoration: none ;
 color:#474747
 }
+/* header styles */
+.header{background: #FFF8F3;}
+.banner{ padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;}
+.banner .profile-pic{ width: 500px;}
